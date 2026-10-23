@@ -1,0 +1,53 @@
+# dependencies
+node_modules/
+.pnpm-store/
+vendor/
+
+# build output
+dist/
+build/
+out/
+target/
+bin/
+obj/
+Debug/
+Release/
+*.exe
+*.dll
+*.lib
+*.pdb
+
+# electron / tauri
+.electron/
+.tauri/
+src-tauri/target/
+
+# cef
+cef/
+cef_binary*/
+*.cef
+
+# logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# env
+.env
+.env.*
+!.env.example
+
+# editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+
+# os
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# misc
+*.tmp
+.cache/
